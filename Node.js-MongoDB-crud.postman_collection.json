@@ -40,7 +40,7 @@
 				],
 				"body": {
 					"mode": "raw",
-					"raw": "{\n    \"data\": {\n    \t\"name\":\"aamir\",\n    \t\"address\":\"khan\",\n    \t\"phone\":\"9890417709\"\n    }\n}"
+					"raw": "{\n    \"data\": {\n    \t\"name\":\"aaaa\",\n    \t\"address\":\"aaa\",\n    \t\"phone\":\"11111111111\"\n    }\n}"
 				},
 				"url": {
 					"raw": "http://localhost:8000/add",
@@ -95,7 +95,7 @@
 				],
 				"body": {
 					"mode": "raw",
-					"raw": "{\n    \"data\": {\n        \"name\": \"Mickey\",\n        \"address\": \"New York\"\n    }\n}"
+					"raw": "{\n    \"data\": {\n        \"name\": \"John Doe\",\n        \"address\": \"New York\"\n    }\n}"
 				},
 				"url": {
 					"raw": "http://localhost:8000/update/5d74dbae5481202fdc3f0d0b",
