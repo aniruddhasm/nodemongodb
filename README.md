@@ -28,10 +28,10 @@ node app.js
 
 # API Endpoints
 
-/ : lists the notes in the collection called "notes" in the database named "easy-notes" inside your cluster ; the URI of which we have to supply in the database.config file
+GET / : lists the notes in the collection called "notes" in the database named "easy-notes" inside your cluster ; the URI of which we have to supply in the database.config file
 
 
-/add : expects a data object in the request payload of the http request
+POST /add : expects a data object in the request payload of the http request
 
 GET /update/:id : expects an ID of the note as a param ; which can be fetched from your Mongo Atlas Collection "notes" 
     - Eg: 6526f8b76d1b4be393cb0e7c
